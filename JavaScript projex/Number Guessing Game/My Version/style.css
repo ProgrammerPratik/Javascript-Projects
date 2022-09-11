@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  /* background-color: #ffffcc; */
+  background-color: #cccccc;
+  color: #47433b;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.div-guessing {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.guess {
+  background-color: none;
+  margin: 12px;
+  width: 100px;
+  height: 75px;
+  text-align: center;
+  font-size: 35px;
+  font-family: inherit;
+  color: inherit;
+  border: 2px solid black;
+}
+
+.check {
+  width: 100px;
+  height: 50px;
+  font-family: inherit;
+  font-size: 17px;
+  border: 1px;
+  background-color: rgb(185, 255, 72);
+  border-radius: 10px;
+  color: inherit;
+  text-align: center;
+}
+
+.title {
+  margin: 10px;
+}
+
+.div-score {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #d1bd96;
+  font-size: 16px;
+  /* display: inline-block; */
+}
+
+.again {
+  width: 100px;
+  height: 50px;
+  font-family: inherit;
+  font-size: 15px;
+  border: 1px;
+  background-color: rgb(185, 255, 72);
+  border-radius: 10px;
+  color: inherit;
+  text-align: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+/* .limit {
+  text-align: end;
+  display: inline-block;
+} */
+
+.div-hint {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 10px;
+}
+
+.message {
+  margin-top: 30px;
+  text-align: center;
+}
