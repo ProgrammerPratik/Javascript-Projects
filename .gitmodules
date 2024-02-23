@@ -1,0 +1,3 @@
+[submodule "rock-paper-scissor-game"]
+	path = rock-paper-scissor-game
+	url = ../rock-paper-scissor-game
